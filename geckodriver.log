@@ -1,0 +1,114 @@
+1638967914936	geckodriver	INFO	Listening on 127.0.0.1:44617
+1638967914942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38663" "-no-remote" "-profile" "/tmp/rust_mozprofileBwLOS9"
+1638967916152	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBwLOS9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38663/devtools/browser/3b175eaf-e1cd-4112-9f47-43c771c9fc0e
+1638967917809	Marionette	INFO	Listening on port 45237
+1638967917890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1638967970958	Marionette	INFO	Stopped listening on port 45237
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638967980987	geckodriver	INFO	Listening on 127.0.0.1:50673
+1638967980994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58777" "-no-remote" "-profile" "/tmp/rust_mozprofile3ZMWT8"
+1638967982212	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3ZMWT8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58777/devtools/browser/8e2f04e9-58a1-42b1-ac01-22da067dd027
+1638967983872	Marionette	INFO	Listening on port 36133
+1638967983921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638967985692	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1638968070333	Marionette	INFO	Stopped listening on port 36133
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1638978347099	geckodriver	INFO	Listening on 127.0.0.1:45611
+1638978347601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47307" "-no-remote" "-profile" "/tmp/rust_mozprofilen51qP3"
+1638978348735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen51qP3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47307/devtools/browser/e743236d-2ecb-4088-85fd-d6894109fe2e
+1638978350275	Marionette	INFO	Listening on port 33305
+1638978350329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638978352870	Marionette	INFO	Stopped listening on port 33305
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1638978452089	geckodriver	INFO	Listening on 127.0.0.1:52315
+1638978452095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53465" "-no-remote" "-profile" "/tmp/rust_mozprofileDUmH3c"
+1638978453225	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDUmH3c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53465/devtools/browser/194033ba-3e49-48ad-8dad-6e59f5c79e58
+1638978455044	Marionette	INFO	Listening on port 36773
+1638978455123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638978504796	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638978514430	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638978524308	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1638978538293	Marionette	INFO	Stopped listening on port 36773
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 8768, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-FZEckL/firefox-92.0+build3/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1639057413179	geckodriver	INFO	Listening on 127.0.0.1:47207
+1639057413688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42993" "-no-remote" "-profile" "/tmp/rust_mozprofileUlsc2B"
+1639057415022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUlsc2B/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42993/devtools/browser/0278a8f3-f84d-497e-ac2d-6763348f6793
+1639057416963	Marionette	INFO	Listening on port 45591
+1639057417025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerUICommons.js/93d6a55d3d5b.js, line 370: Error: failed to get canvas context
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1639057702612	Marionette	INFO	Stopped listening on port 45591
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639057963375	geckodriver	INFO	Listening on 127.0.0.1:56517
+1639057963381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44427" "-no-remote" "-profile" "/tmp/rust_mozprofile81Wbl3"
+1639057964620	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile81Wbl3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44427/devtools/browser/d67d2cd0-4653-4c5d-95ca-4f7c815e3ec5
+1639057966496	Marionette	INFO	Listening on port 41895
+1639057966637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639057978375	Marionette	INFO	Stopped listening on port 41895
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1639058029868	geckodriver	INFO	Listening on 127.0.0.1:48109
+1639058029875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44171" "-no-remote" "-profile" "/tmp/rust_mozprofileeIft4l"
+1639058031107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeIft4l/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44171/devtools/browser/611ea270-1744-4a98-baa5-5e7c842fa7eb
+1639058033041	Marionette	INFO	Listening on port 44319
+1639058033108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/bd6f49e76d0c.js, line 42: OZ_NETWORK: Network failure.
+1639058065331	Marionette	INFO	Stopped listening on port 44319
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
